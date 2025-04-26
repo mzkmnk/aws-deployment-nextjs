@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "pnpm": "10.6.1",
+    "npm": "use pnpm"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:app": "pnpm --filter app dev"
   },
   "keywords": [],
   "author": "",
